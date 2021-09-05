@@ -1,0 +1,26 @@
+--> This is tengu's application for every people, who wants to do some crazy
+    or dangerous, but doesn't want to do it their own
+
+--> Stack:
+    - Vue
+    - Pug
+    - Gulp
+    - Sass
+    - Ajax
+    - Svg
+    - js
+
+
+--> media queries for:
+    - max width 700px
+    - max width 1500px
+    - max-width 400px
+    - max width 500px
+    - max height 500px
+
+--> This application uses json logs of database --> You can find logs in ./src/data/ logs/data.js
+    This is realised to separate front and back
+
+--> This version doesn't use agregation --> Go to ./src/js/main-body.js to change changeHidden
+
+--> This version doesn't use sending --> Go to ./src/js/main-body.js to change

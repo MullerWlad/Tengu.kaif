@@ -1,0 +1,27 @@
+doctype html
+html(lang='ru')
+    head
+        meta(charset="utf-8")
+        title Tengu.kaif
+        link(rel="short icon" href="./src/images/sprites/svg/tengu.svg")
+        link(rel="stylesheet" href="./src/images/mixins/images.css")
+        link(rel="stylesheet" href="./src/resource/mixins/font.css")
+    style 
+        include ./src/css/fixed-properties.min.css
+        include ./src/css/special.min.css
+        include ./src/css/style.min.css
+    body.general-background.no-pads
+        #start-func.centred
+            .img-block.tengu-picture.logo-size.centred.logo-top
+            h1.general-background.white-color.story.logo-text.display-vertical-center.no-pads Tengu.kaif
+            button.second-background.story.entry-button.centred(v-on:click="changeMessage()") Use evil
+            button.second-background.story.entry-button.centred.white-background.general-color(v-on:click="changeHidden()") Support
+
+            //This is component of next version, go to readme
+            //include ./src/pug/components/money-card
+
+            include ./src/pug/components/add-message
+        #app.centred.workspace.top-50.display-vertical-around
+        script(src="https://unpkg.com/vue@next")
+        script(src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js")
+        script(src="./src/js/main-body.js")
