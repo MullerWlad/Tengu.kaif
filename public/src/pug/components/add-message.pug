@@ -1,0 +1,6 @@
+.shadowed-block.display-vertical-around(v-on:click.self="changeMessage()" v-if="!hiddenMessage" v-bind:style="{'display':'flex'}")
+    .special-shadow 
+        .money-card.second-background.display-vertical-around(v-on:click.stop)
+            input.tangak.white-color(placeholder="Name")
+            textarea.tangak.white-color.top-20(placeholder="Message")
+            button.white-background.second-color.story.entry-button.centred(v-on:click="sendMessage()") Send

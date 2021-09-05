@@ -1,0 +1,11 @@
+.shadowed-block.display-vertical-center(v-on:click.self="changeHidden()" v-if="!hidden" v-bind:style="{'display':'flex'}")
+    .display-vertical-center.special-shadow
+        .money-card.second-background.display-vertical-around
+            input.tangak.white-color(placeholder="Number")
+            input.tangak.white-color(placeholder="Day")
+            input.tangak.white-color(placeholder="Month")
+        .money-card.second-background.display-vertical(v-on:click.stop)
+            .card-line.general-background
+            input.tangak.top-20.centred.white-color(placeholder="cvv/cvc")
+            input.tangak.top-20.centred.white-color(placeholder="summ rub")
+    button.white-background.second-color.story.entry-button.centred(v-on:click.stop) Push

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: rolest;
+    src: url("../font/Rolest.ttf");
+}
+
+@font-face {
+    font-family: story;
+    src: url("../font/Story\ Telling.ttf")
+}
+
+@font-face {
+    font-family: tangak;
+    src: url("../font/Tangak.otf");
+}
+
+.rolest{
+    font-family: rolest;
+}
+
+.story{
+    font-family: story;
+}
+
+.tangak{
+    font-family: tangak;
+}

@@ -1,0 +1,163 @@
+@import ./variables
+
+.top-50
+    margin-top: 50px
+
+.top-20
+    margin-top: 20px
+
+.left-20
+    margin-left: 20px
+
+.left-70p
+    margin-left: 70%
+
+.top-80p
+    margin-top: 80%
+
+input
+    outline: none
+    border: none
+    background: $color-
+    border-radius: 10px
+    font-size: 20px
+    height: 30px
+    padding: 10px
+    width: 80%
+    letter-spacing: 3px
+    @media screen and (max-width: 500px)
+        border-radius: 7px
+        font-size: 15px
+        padding: 5px
+        letter-spacing: 2px
+        margin: 0
+
+textarea
+    outline: none
+    border: none
+    background: $color-
+    border-radius: 10px
+    font-size: 20px
+    height: 200px
+    padding: 10px
+    width: 80%
+    letter-spacing: 3px
+    resize: none
+    @media screen and (max-width: 500px)
+        border-radius: 7px
+        font-size: 15px
+        padding: 5px
+        letter-spacing: 2px
+        height: 150px
+
+textarea::-webkit-scrollbar
+    width: 0
+
+textarea::placeholder
+    font-size: 20px
+    color: $color
+    letter-spacing: 3px
+    user-select: none
+    @media screen and (max-width: 500px)
+        font-size: 15px
+        letter-spacing: 2px
+
+input::placeholder
+    font-size: 20px
+    color: $color
+    letter-spacing: 3px
+    user-select: none
+    @media screen and (max-width: 500px)
+        font-size: 15px
+        letter-spacing: 2px
+
+button
+    width: 200px
+    color: $white
+    border: none
+    cursor: pointer
+    font-size: 30px
+    transition-duration: 0.2s
+    display: block
+    user-select: none
+    border-radius: 10px
+    @media screen and (max-width: 500px)
+        border-radius: 7px
+        font-size: 21px
+
+button:hover
+    border-radius: 10px 10px 50px 10px
+    @media screen and (max-width: 500px)
+        border-radius: 7px 7px 35px 7px
+
+button:active
+    transform: scale(0.95)
+    border-radius: 10px
+    @media screen and (max-width: 500px)
+        border-radius: 7px
+
+.logo-size
+    width: 140px
+    height: 220px
+    @media screen and (max-width: 500px)
+        width: 98px
+        height: 154px
+
+.logo-top
+    margin-top: 15vh
+
+.usual-text-size
+    font-size: 30px
+    line-height: 45px
+
+.workspace
+    max-width: 90%
+    margin-bottom: 50px
+
+.message-card
+    margin: 20px
+    background: $color
+    max-width: 350px
+    min-width: 200px
+    min-height: 100px
+    padding: 20px
+    border-radius: 10px
+    @media screen and (max-width: 700px)
+        max-width: 500px
+        min-width: 300px
+    @media screen and (max-width: 400px)
+        max-width: 250px
+        min-width: 200px
+        min-height: 50px
+
+.card-text
+    letter-spacing: 3px
+
+.icon-size
+    width: 100px
+    height: 100px
+    @media screen and (max-width: 400px)
+        width: 50px
+        height: 50px
+
+.shadowed-block
+    width: 100vw
+    height: 130vh
+    position: absolute
+    top: 0
+    display: none
+    @media screen and (max-height: 500px)
+        height: 180vh
+
+.money-card
+    width: 500px
+    min-height: 200px
+    padding-top: 50px
+    padding-bottom: 50px
+    border-radius: 10px
+    margin: 10px
+    @media screen and (max-width: 500px)
+        width: 350px
+        padding-bottom: 20px 
+        padding-top: 20px
+        min-height: 150px
